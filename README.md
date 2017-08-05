@@ -21,7 +21,7 @@ Install package dependencies:
 # For Homebrew-installed Python 3.x on Mac OS:
 pip3 install -r requirements.txt
 # All others:
-pip install tweepy
+pip install -r requirements.txt
 ```
 
 ## Usage
