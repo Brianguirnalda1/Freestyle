@@ -33,10 +33,10 @@ In the file titled create_tweet.py change the below config to your key variables
 
 ```shell
 cfg = {
-"consumer_key"        : "KEY_VARIABLE",
-"consumer_secret"     : "SECRET_VARIABLE",
-"access_token"        : "ACCESS_TOKEN_VARIABLE",
-"access_token_secret" : "ACCESS_TOKEN_SECRET_VARIABLE"
+  "consumer_key"        : "KEY_VARIABLE",
+  "consumer_secret"     : "SECRET_VARIABLE",
+  "access_token"        : "ACCESS_TOKEN_VARIABLE",
+  "access_token_secret" : "ACCESS_TOKEN_SECRET_VARIABLE"
 }
 ```
 Save the script and run the app using your CLI to run the twitter_app.py:
