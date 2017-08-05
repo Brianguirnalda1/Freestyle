@@ -6,7 +6,7 @@ def get_api(cfg):
   return tweepy.API(auth)
 
 def main():
-  # Fill in the values noted in previous step here
+
   cfg = {
     "consumer_key"        : "O3yujMTwC0dJehCMfGGpqBxME",
     "consumer_secret"     : "2g5kxhhhjOLZKGpmR4K2A2uqM2w2zHJ3rCNeQlZ9gcE7rabazj",
@@ -15,9 +15,9 @@ def main():
     }
 
   api = get_api(cfg)
-  tweet = input("Write Text Here")
+  tweet = input("Enter Your Awesome Tweet Here: ")
   status = api.update_status(status=tweet)
-  # Yes, tweet is called 'status' rather confusing
+
 
 if __name__ == "__main__":
   main()

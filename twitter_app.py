@@ -26,7 +26,7 @@ tweets = api.user_timeline() # get a list of tweets posted by the currently auth
 # PARSE RESPONSES
 
 print("---------------------------------------------------------------")
-print("RECENT TWEETS BY @{0} ({1} FOLLOWERS / {2} FOLLOWING):".format(user.screen_name, user.followers_count, user.friends_count))
+print("RECENT AWESOME TWEETS BY @{0} ({1} FOLLOWERS / {2} FOLLOWING):".format(user.screen_name, user.followers_count, user.friends_count))
 print("---------------------------------------------------------------")
 
 for tweet in tweets:
